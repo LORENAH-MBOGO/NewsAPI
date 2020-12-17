@@ -7,4 +7,4 @@ CREATE TABLE news(id serial PRIMARY KEY, title varchar, content varchar, departm
 
 CREATE TABLE departments(id serial PRIMARY KEY, name varchar, bio varchar);
 
-CREATE DATABASE organisational_test WITH TEMPLATE organisational;
+CREATE DATABASE myorg_test WITH TEMPLATE myorg;
